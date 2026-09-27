@@ -1,6 +1,6 @@
 package Numbers;
 
-public class Happy_no {
+public class Happy_no1 {
 	public static int add(int no) {
 		int sum=0;
 		while(no!=0) {
