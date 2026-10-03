@@ -9,7 +9,7 @@ public class Happy_no {
 			no=no/10;
 			
 		}
-		return sum;
+		return sum; 
 		
 	}
 public static void main(String[] args) {
