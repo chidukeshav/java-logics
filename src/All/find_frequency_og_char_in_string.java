@@ -1,4 +1,4 @@
-package String;
+package All;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
