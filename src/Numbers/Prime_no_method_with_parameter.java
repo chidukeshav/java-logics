@@ -1,27 +1,26 @@
 package Numbers;
 
 public class Prime_no_method_with_parameter {
-	 static void isprime(int num) {
-		boolean flag =true;
-		if(num<=0) {
-			flag=false;
-		}
-		else {
-			for(int i=2;i<Math.sqrt(num);i++) {
-				if(num%i==0) {
-					flag=false;
+	static void isprime(int num) {
+		boolean flag = true;
+		if (num <= 0) {
+			flag = false;
+		} else {
+			for (int i = 2; i < Math.sqrt(num); i++) {
+				if (num % i == 0) {
+					flag = false;
 					break;
 				}
 			}
 		}
-		if(flag) {
+		if (flag) {
 			System.out.println("Prime number");
-		}
-		else {
+		} else {
 			System.out.println("Not prime number");
 		}
 	}
-public static void main(String[] args) {
-	isprime(7);
-}
+
+	public static void main(String[] args) {
+		isprime(7);
+	}
 }
