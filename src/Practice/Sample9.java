@@ -1,0 +1,31 @@
+package Practice;
+
+public class Sample9 {
+	public static int factorial(int no) {
+		int fact = 1;
+		for (int i = no; i >= 1; i--) {
+			fact = fact * i;
+		}
+		return fact;
+	}
+
+	public static void main(String[] args) {
+		int no = 145;
+		int sum = 0;
+		int copy = no;
+		while (no != 0) {
+			int rem = no % 10;
+			sum = sum + factorial(rem);
+			no = no / 10;
+		}
+		if (copy == sum) {
+			System.out.println("Strong");
+
+		}
+		else {
+			System.out.println("Not");
+		}
+
+	}
+
+}
