@@ -127,7 +127,7 @@ This repository documents my journey of solving Java programming problems across
 
 - **Programming Language:** Java
 - **Development Kit:** JDK
-- **Code Editor:** Visual Studio Code
+- **Code Editor:** Eclipse IDE
 
 ## 🎯 Learning Objectives
 
